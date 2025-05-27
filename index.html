@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional freelance services for web development, design, and digital solutions. Hire a skilled freelancer for your next project.">
+    <meta name="keywords" content="freelance, web development, web design, digital services, hire freelancer">
+    <meta name="author" content="FreeGrance">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title" content="FreeGrance | Professional Freelance Services">
+    <meta property="og:description" content="Professional freelance services for web development, design, and digital solutions.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://freegrance.com">
+    <meta property="og:image" content="https://freegrance.com/images/hero-bg.jpg">
+    
+    <title>FreeGrance | Professional Freelance Services</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="canonical" href="https://freegrance.com">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container">
+            <a href="#home" class="logo">Free<span>Grance</span></a>
+            <button class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul id="nav-ul">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Professional Freelance Services</h1>
+                <p class="subtitle">High-quality web development, design, and digital solutions tailored to your needs</p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn btn-primary">Hire Me</a>
+                    <a href="#portfolio" class="btn btn-secondary">View Work</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+        <div class="container">
+            <h2 class="section-title">My Services</h2>
+            <p class="section-subtitle">What I can do for you</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Web Development</h3>
+                    <p>Custom website development using modern technologies like HTML5, CSS3, JavaScript, and frameworks.</p>
+                </div>
+                
+                <div class="service-card">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Web Design</h3>
+                    <p>Beautiful, responsive designs that work on all devices and provide excellent user experience.</p>
+                </div>
+                
+                <div class="service-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Mobile Development</h3>
+                    <p>Cross-platform mobile applications that run smoothly on both iOS and Android devices.</p>
+                </div>
+                
+                <div class="service-card">
+                    <i class="fas fa-search"></i>
+                    <h3>SEO Optimization</h3>
+                    <p>Improve your search engine rankings and drive more organic traffic to your website.</p>
+                </div>
+                
+                <div class="service-card">
+                    <i class="fas fa-shopping-cart"></i>
+                    <h3>E-commerce</h3>
+                    <p>Complete e-commerce solutions with secure payment gateways and inventory management.</p>
+                </div>
+                
+                <div class="service-card">
+                    <i class="fas fa-server"></i>
+                    <h3>Hosting & Maintenance</h3>
+                    <p>Reliable hosting solutions and ongoing maintenance to keep your website running smoothly.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h2 class="section-title">My Portfolio</h2>
+            <p class="section-subtitle">Some of my recent work</p>
+            
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+            </div>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="web">
+                    <img src="images/Reasons-to-make-your-e-commerce-accessible.jpg" alt="E-commerce Website Project">
+                    <div class="portfolio-overlay">
+                        <h3>E-commerce Website</h3>
+                        <p>Online store with product management</p>
+                        <a href="#" class="portfolio-link">View Details</a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="design">
+                    <img src="images/2.webp" alt="Corporate Website Design">
+                    <div class="portfolio-overlay">
+                        <h3>Corporate Website</h3>
+                        <p>Modern design for business</p>
+                        <a href="#" class="portfolio-link">View Details</a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="mobile">
+                    <img src="images/3.png" alt="Fitness Mobile App">
+                    <div class="portfolio-overlay">
+                        <h3>Fitness App</h3>
+                        <p>Workout tracking application</p>
+                        <a href="#" class="portfolio-link">View Details</a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="web">
+                    <img src="images/4.jfif" alt="Blog Platform">
+                    <div class="portfolio-overlay">
+                        <h3>Blog Platform</h3>
+                        <p>Content management system</p>
+                        <a href="#" class="portfolio-link">View Details</a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="design">
+                    <img src="images/5.png" alt="Restaurant Website">
+                    <div class="portfolio-overlay">
+                        <h3>Restaurant Website</h3>
+                        <p>Online menu and reservations</p>
+                        <a href="#" class="portfolio-link">View Details</a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="mobile">
+                    <img src="images/6.jfif" alt="Travel App">
+                    <div class="portfolio-overlay">
+                        <h3>Travel App</h3>
+                        <p>Destination planner</p>
+                        <a href="#" class="portfolio-link">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/7.jpg" alt="Freelancer Profile">
+                </div>
+                <div class="about-text">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="section-subtitle">Professional freelancer with 5+ years of experience</p>
+                    <p>I'm a passionate freelancer dedicated to delivering high-quality digital solutions. With expertise in web development, design, and digital marketing, I help businesses establish their online presence.</p>
+                    <p>My approach combines technical skills with creative thinking to deliver solutions that not only look great but also drive results.</p>
+                    
+                    <div class="skills">
+                        <h3>My Skills</h3>
+                        <div class="skill-item">
+                            <p>HTML/CSS</p>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 95%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <p>JavaScript</p>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <p>UI/UX Design</p>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <p>SEO</p>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <a href="#contact" class="btn btn-primary">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section">
+        <div class="container">
+            <h2 class="section-title">Client Testimonials</h2>
+            <p class="section-subtitle">What my clients say about my work</p>
+            
+            <div class="testimonials-slider">
+                <div class="testimonial active">
+                    <div class="testimonial-content">
+                        <p>"Working with this freelancer was a great experience. They delivered the project on time and exceeded our expectations with the quality of work."</p>
+                        <div class="client-info">
+                            <img src="images/8.jpeg" alt="Client 1">
+                            <div>
+                                <h4>Sarah Johnson</h4>
+                                <p>CEO, Tech Solutions Inc.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"The website they created for our business has significantly increased our online sales. Highly recommended for e-commerce solutions."</p>
+                        <div class="client-info">
+                            <img src="images/9.jpg" alt="Client 2">
+                            <div>
+                                <h4>Michael Brown</h4>
+                                <p>Owner, Fashion Boutique</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"Excellent communication and technical skills. They understood our requirements perfectly and delivered a solution that matched our vision."</p>
+                        <div class="client-info">
+                            <img src="images/10.png" alt="Client 3">
+                            <div>
+                                <h4>Emily Davis</h4>
+                                <p>Marketing Director</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonial-nav">
+                <button class="testimonial-prev"><i class="fas fa-chevron-left"></i></button>
+                <div class="testimonial-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+                <button class="testimonial-next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Let's work together</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>123 Business Street, City, Country</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>contact@freegrance.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+1 (123) 456-7890</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <a href="#home" class="logo">Free<span>Grance</span></a>
+                    <p>Professional freelance services for your digital needs. Quality work, reliable service, and exceptional results.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-services">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">Web Design</a></li>
+                        <li><a href="#">Mobile Development</a></li>
+                        <li><a href="#">SEO Optimization</a></li>
+                        <li><a href="#">E-commerce</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-newsletter">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to get updates on my latest work and offers.</p>
+                    <form id="newsletterForm">
+                        <input type="email" placeholder="Your Email" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> FreeGrance. All Rights Reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="./css/js/script.js"></script>
+    
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "FreeGrance",
+        "image": "https://freegrance.com/images/hero-bg.jpg",
+        "@id": "https://freegrance.com",
+        "url": "https://freegrance.com",
+        "telephone": "+11234567890",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "123 Business Street",
+            "addressLocality": "City",
+            "addressRegion": "State",
+            "postalCode": "12345",
+            "addressCountry": "US"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 40.7128,
+            "longitude": -74.0060
+        },
+        "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday"
+            ],
+            "opens": "09:00",
+            "closes": "17:00"
+        },
+        "sameAs": [
+            "https://www.facebook.com/freegrance",
+            "https://www.twitter.com/freegrance",
+            "https://www.linkedin.com/company/freegrance",
+            "https://www.instagram.com/freegrance"
+        ]
+    }
+    </script>
+</body>
+</html>
